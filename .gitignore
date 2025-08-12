@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Poetry virtual environment folder (if inside project folder)
+.poetry/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs
+*.log
+
+# Database files (if any local sqlite or similar)
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Mac-specific
+*.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore the Telegram bot download folder if you store files locally (optional)
+downloads/
