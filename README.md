@@ -23,22 +23,22 @@ A Telegram bot to store notes, documents, images, and videos using Python, Poetr
 
 ## Setup Instructions
 ```
-### 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/your-username/telegram-bot-storage.git
 cd telegram-bot-storage
 
 ---
 
-### Install Poetry
+2. Install Poetry
 poetry install
 
 ---
 
-### Create a .env file in the project root with the following content: 
+3. Create a .env file in the project root with the following content: 
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 DATABASE_URL=postgresql+psycopg2://username:password@localhost:5432/telegram_bot_db
 
 ---
 
-### Run the bot
+4. Run the bot
 python bot.py
