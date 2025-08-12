@@ -22,7 +22,7 @@ A Telegram bot to store notes, documents, images, and videos using Python, Poetr
 ---
 
 ## Setup Instructions
-
+```
 ### 1. Clone the repository
 git clone https://github.com/your-username/telegram-bot-storage.git
 cd telegram-bot-storage
